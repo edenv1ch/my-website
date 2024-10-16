@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Page</title>
+    <!-- Add Font Awesome CDN for the icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f0ece3;
+            color: #4b3f2f;
+            margin: 0;
+        }
+        nav {
+            background-color: #8b7765;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4b3f2f;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #6b5d4a;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c5b59d;
+            padding: 20px;
+        }
+        .hero-text {
+            max-width: 40%;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background-color: #6b5d4a;
+            color: #fff;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover {
+            background-color: #4b3f2f;
+        }
+        .hero img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #6b5d4a;
+        }
+        .social-icons {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #4b3f2f;
+            font-size: 2em;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #6b5d4a;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="about.html">About Me</a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm Muhammad Firdaus</h1>
+        <p>I'm a 2nd year Student of Diploma in Computer Science.</p>
+        <button onclick="location.href='about.html'">Read More</button>
+    </div>
+    <div>
+        <img src="myphoto.jpg" alt="Muhammad Firdaus">
+        <div class="social-icons">
+            <a href="https://wa.me/+60183100650" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/edenovic" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
